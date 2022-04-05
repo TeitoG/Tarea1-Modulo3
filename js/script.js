@@ -20,6 +20,8 @@ function calculoDiez(){
     document.getElementById('porcentaje').value = porcentaje;
     document.getElementById('totalPagar').value = totalPagar;
     document.getElementById('totalFinal').value = cantPorDiez;
+    console.log(calculoDiez)
+    document.getElementById("formPor").reset()
 } 
 
 function calculoVeinte(){
@@ -57,7 +59,7 @@ function calculoCuarenta(){
     document.getElementById('totalPagar').value = totalPagar;
     document.getElementById('totalFinal').value = cantPorDiez;
 } 
-let form = document.getElementById('formPor');
+let form = document.getElementById('formPorcentaje');
 
 form.addEventListener('submit', formSumbit);
 

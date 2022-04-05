@@ -20,7 +20,7 @@ input{
 }
 
 
-.formPor{
+.divForm{
     text-align: center;
    color: white;
    border-radius: 3ch;
@@ -28,6 +28,8 @@ input{
    border-style:groove;
    font-size: large;
 }
+
+
 .formCuenta{
     text-align: center;
     background-color: gray;

@@ -9,16 +9,22 @@
 </head>
 <body>
     <h1>Calculadora de Propinas</h1>
-    <form id="formPor" class="formPor">
-        <h2>Total cuenta</h2>
-        <input type="number" id="total"> <br> <br>
-        <h2>Porcentaje de la Propina</h2>
-        <input type="text" id="porcentaje">
-        <button id="btnDiez">10%</button>
-        <button id="btnVeinte">20%</button>
-        <button id="btnTreinta">30%</button>
-        <button id="btnCuarenta">40%</button> <br> <br>
-    </form>
+    <div id=divForm class="divForm">
+        <form id="formPor" class="formPor">
+            <h2>Total cuenta</h2>
+            <input type="number" id="total"> <br> <br>
+        </form>
+        <form id="formPorcentaje" class="formPorcentaje">
+            <h2>Porcentaje de la Propina</h2>
+            <input type="text" id="porcentaje">
+            <button id="btnDiez">10%</button>
+            <button id="btnVeinte">20%</button>
+            <button id="btnTreinta">30%</button>
+            <button id="btnCuarenta">40%</button> <br> <br>
+        </form>
+    </div>
+    
+    
     <form id="formCuenta" class="formCuenta">
         <h2>Resumen</h2>
         Total de la cuenta <input type="number" id="totalFinal"> <br> <br>
