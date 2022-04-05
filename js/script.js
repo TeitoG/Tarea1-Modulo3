@@ -33,7 +33,8 @@ function calculoVeinte(){
     document.getElementById('totalPropina').value = total;
     document.getElementById('porcentaje').value = porcentaje;
     document.getElementById('totalPagar').value = totalPagar;
-    document.getElementById('totalFinal').value = cantPorDiez;
+    document.getElementById('totalFinal').value = cantPorVeinte;
+    document.getElementById("formPor").reset()
 } 
 
 function calculoTreinta(){
@@ -45,7 +46,8 @@ function calculoTreinta(){
     document.getElementById('totalPropina').value = total;
     document.getElementById('porcentaje').value = porcentaje;
     document.getElementById('totalPagar').value = totalPagar;
-    document.getElementById('totalFinal').value = cantPorDiez;
+    document.getElementById('totalFinal').value = cantPorTreinta;
+    document.getElementById("formPor").reset()
 } 
 
 function calculoCuarenta(){
@@ -57,8 +59,10 @@ function calculoCuarenta(){
     document.getElementById('totalPropina').value = total;
     document.getElementById('porcentaje').value = porcentaje;
     document.getElementById('totalPagar').value = totalPagar;
-    document.getElementById('totalFinal').value = cantPorDiez;
+    document.getElementById('totalFinal').value = cantPorCuarenta;
+    document.getElementById("formPor").reset()
 } 
+
 let form = document.getElementById('formPorcentaje');
 
 form.addEventListener('submit', formSumbit);
